@@ -10,10 +10,10 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet var weatherLabel: UILabel!
     @IBOutlet var getWeatherButton: UIButton!
-    @IBOutlet weak var cityDropDown: UIButton!
-    @IBOutlet weak var buttonShow: UIButton!
-    @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet var cityDropDown: UIButton!
+    @IBOutlet var buttonShow: UIButton!
+    @IBOutlet var label: UILabel!
+    @IBOutlet var tableView: UITableView!
     
     var cities = [String: [String: Double]]()
     var city:[String] = []
