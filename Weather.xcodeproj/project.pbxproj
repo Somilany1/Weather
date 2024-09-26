@@ -14,7 +14,7 @@
 		D428E5E72C9CAEF200ACA721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D428E5E62C9CAEF200ACA721 /* Assets.xcassets */; };
 		D428E5EA2C9CAEF200ACA721 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D428E5E92C9CAEF200ACA721 /* Base */; };
 		D428E5F22C9CBB4800ACA721 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428E5F12C9CBB4800ACA721 /* WeatherData.swift */; };
-		D47A636F2CA492120074EA61 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47A636E2CA492120074EA61 /* Observable.swift */; };
+		D44E34602CA5B591005C5548 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E345F2CA5B591005C5548 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		D428E5E92C9CAEF200ACA721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D428E5EB2C9CAEF200ACA721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D428E5F12C9CBB4800ACA721 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
-		D47A636E2CA492120074EA61 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		D44E345F2CA5B591005C5548 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		D428E5D12C9CAEF000ACA721 = {
 			isa = PBXGroup;
 			children = (
-				D47A636E2CA492120074EA61 /* Observable.swift */,
+				D44E345F2CA5B591005C5548 /* Observable.swift */,
 				D428E5DC2C9CAEF000ACA721 /* Weather */,
 				D428E5DB2C9CAEF000ACA721 /* Products */,
 			);
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D428E5E22C9CAEF000ACA721 /* ViewController.swift in Sources */,
-				D47A636F2CA492120074EA61 /* Observable.swift in Sources */,
+				D44E34602CA5B591005C5548 /* Observable.swift in Sources */,
 				D428E5DE2C9CAEF000ACA721 /* AppDelegate.swift in Sources */,
 				D428E5F22C9CBB4800ACA721 /* WeatherData.swift in Sources */,
 				D428E5E02C9CAEF000ACA721 /* SceneDelegate.swift in Sources */,
