@@ -21,6 +21,7 @@
 		D44E34692CA5BAA6005C5548 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E34682CA5BAA6005C5548 /* Weather.swift */; };
 		D44E346B2CA5BACF005C5548 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E346A2CA5BACF005C5548 /* Temperature.swift */; };
 		D44E346D2CA5BB32005C5548 /* WeatherBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E346C2CA5BB32005C5548 /* WeatherBuilder.swift */; };
+		D44E346F2CA831F5005C5548 /* WeatherServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E346E2CA831F5005C5548 /* WeatherServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		D44E34682CA5BAA6005C5548 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		D44E346A2CA5BACF005C5548 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		D44E346C2CA5BB32005C5548 /* WeatherBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBuilder.swift; sourceTree = "<group>"; };
+		D44E346E2CA831F5005C5548 /* WeatherServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		D428E5D12C9CAEF000ACA721 = {
 			isa = PBXGroup;
 			children = (
+				D44E346E2CA831F5005C5548 /* WeatherServiceProtocol.swift */,
 				D44E346C2CA5BB32005C5548 /* WeatherBuilder.swift */,
 				D44E346A2CA5BACF005C5548 /* Temperature.swift */,
 				D44E34682CA5BAA6005C5548 /* Weather.swift */,
@@ -176,6 +179,7 @@
 				D428E5DE2C9CAEF000ACA721 /* AppDelegate.swift in Sources */,
 				D44E34692CA5BAA6005C5548 /* Weather.swift in Sources */,
 				D428E5F22C9CBB4800ACA721 /* WeatherData.swift in Sources */,
+				D44E346F2CA831F5005C5548 /* WeatherServiceProtocol.swift in Sources */,
 				D44E346D2CA5BB32005C5548 /* WeatherBuilder.swift in Sources */,
 				D44E34622CA5B837005C5548 /* LocationService.swift in Sources */,
 				D44E34642CA5B960005C5548 /* Error.swift in Sources */,
