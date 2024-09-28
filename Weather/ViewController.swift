@@ -53,13 +53,6 @@ class ViewController: UIViewController {
     }
     
     func setData() {
-        cities["Minsk"] = ["latitude": 53.9, "longitude": 27.5667]
-        cities["Grodno"] = ["latitude": 53.6697, "longitude": 23.8298]
-        cities["Gomel"] = ["latitude": 52.4345, "longitude": 30.9754]
-        cities["Vitebsk"] = ["latitude": 55.1904, "longitude": 30.2049]
-        cities["Mogilev"] = ["latitude": 53.9, "longitude": 30.3456]
-        cities["Brest"] = ["latitude": 52.0976, "longitude": 23.7341]
-        
         city = Array(cities.keys)
     }
         
